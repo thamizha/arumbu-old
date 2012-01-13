@@ -1,0 +1,10 @@
+.ui-header h1.ui-title {
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+.ui-header h4.ui-title {
+	font-size: 10px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+}

@@ -1,4 +1,4 @@
-package com.phonegap.arumbu;
+package com.thamizha.arumbu;
 
 import com.phonegap.*;
 import android.os.Bundle;

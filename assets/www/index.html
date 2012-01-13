@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <html>
     <head>
-        <title>Peyar.in</title>
+        <title>ThamiZha! Arumbu - Tamil baby names</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <script type="text/javascript" charset="utf-8" src="js/phonegap-1.3.0.js"></script>        
         <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>  
@@ -37,51 +37,33 @@
                     $('#nameListContainerBoth').html(op1); 
                     $('#nameListContainerBoy').html(op2); 
                     $('#nameListContainerGirl').html(op3); 
-                    
-                   /* $('#nameListContainerBoth').bind('pageshow',function(event){                       
-                        $('[data-role=navbar] a').removeClass("ui-btn-active");                       
-                        var menuLink = $('#nameListContainerBoth .btnBoth');
-                        menuLink.addClass("ui-btn-active");
-                    });  
-                    
-                    $('#nameListContainerBoy').bind('pageshow',function(event){                       
-                        $('[data-role=navbar] a').removeClass("ui-btn-active");                       
-                        var menuLink = $('#nameListContainerBoy .btnBoy');
-                        menuLink.addClass("ui-btn-active");
-                    }); 
-                    
-                     $('#nameListContainerGirl').bind('pageshow',function(event){                       
-                        $('[data-role=navbar] a').removeClass("ui-btn-active");                       
-                        var menuLink = $('#nameListContainerGirl .btnBoy');
-                        menuLink.addClass("ui-btn-active");
-                    });*/
             });
         </script>
-        <script type="text/javascript" src="js/jquery.mobile-1.0.min.js"></script>       
+        <script type="text/javascript" src="js/jquery.mobile-1.0.min.js"></script>      
         <link href="css/jquery.mobile-1.0.min.css" rel="stylesheet"/>
-        <style>           
-/*                @font-face { font-family: Tamil; src: url('TSCKANNA_0.ttf'); } */
-                @font-face { font-family: Tamil; src: url('TSCu_Paranar.ttf'); } 
-                .nameList li {
-                        font-family: Tamil;
-                }
-        </style>
-        <script>	
-		
-             $(document).bind('mobileinit',function(){
-                $.extend($.mobile,{
-                     touchOverflowEnabled:true
-                });
-               
-            });                     
-        </script>
+		<link href="css/arumbu.css" rel="stylesheet"/>
+		<script type="text/javascript" src="js/arumbu.js"></script>  
+        <style>
+                @font-face { font-family: Tamil; src: url('TSCu_Paranar.ttf'); }
+				.nameList li{
+				font-family: Tamil;
+				font-size: 18px;
+				}
+
+				.ui-header {
+					font-family: Tamil;
+				}
+
+        </style>		
     </head>
     <body>
-        <div data-role="page" id="nameBoth" >
+        <div data-role="page" id="both" >
             <div data-role="header" data-position="fixed">
-                <h1>Thamizha's Peyar.in</h1>
+                <h1>¾Á¢Æ¡! «ÕõÒ</h1>	
+<h4>ÌÆó¨¾ ¦ÀÂ÷¸û</h4>				
             </div>
             <div data-role="content">                
+			
                 <div id="nameListContainerBoth">
                     
                 </div>
@@ -90,7 +72,7 @@
             <div data-role="footer" data-position="fixed">
                <div data-role="navbar" data-iconpos="bottom">
                     <ul>
-                            <li ><a href="#" class="btnBoth ui-btn-active ui-state-persist">Both</a></li>
+                            <li ><a href="#both" class="btnBoth ui-btn-active ui-state-persist">Both</a></li>
                             <li><a href="#boy" class="btnBoy"  data-direction="reverse">Boy</a></li>
                             <li><a href="#girl" class="btnGirl" data-direction="reverse">Girl</a></li>
                     </ul>
@@ -99,7 +81,8 @@
         </div>  
         <div data-role="page" id="boy">
             <div data-role="header" data-position="fixed">
-                <h1>Thamizha's Peyar.in</h1>
+                <h1>¾Á¢Æ¡! «ÕõÒ</h1>
+<h4>ÌÆó¨¾ ¦ÀÂ÷¸û</h4>								
             </div>
             <div data-role="content">                
                 <div id="nameListContainerBoy">
@@ -110,7 +93,7 @@
             <div data-role="footer" data-position="fixed">
                <div data-role="navbar" data-iconpos="bottom">
                     <ul>
-                            <li ><a href="#nameBoth" class="btnBoth " >Both</a></li>
+                            <li ><a href="#both" class="btnBoth " >Both</a></li>
                             <li><a href="#" class="btnBoy ui-btn-active ui-state-persist">Boy</a></li>
                             <li><a href="#girl" class="btnGirl" data-direction="reverse">Girl</a></li>
                     </ul>
@@ -119,7 +102,8 @@
         </div> 
         <div data-role="page" id="girl">
             <div data-role="header" data-position="fixed">
-                <h1>Thamizha's Peyar.in</h1>
+                <h1>¾Á¢Æ¡! «ÕõÒ</h1>
+<h4>ÌÆó¨¾ ¦ÀÂ÷¸û</h4>								
             </div>
             <div data-role="content">                
                 <div id="nameListContainerGirl">
@@ -130,7 +114,7 @@
             <div data-role="footer" data-position="fixed">
                <div data-role="navbar" data-iconpos="bottom">
                     <ul>
-                            <li ><a href="#nameBoth" class="btnBoth" >Both</a></li>
+                            <li ><a href="#both" class="btnBoth" >Both</a></li>
                             <li><a href="#boy" class="btnBoy" >Boy</a></li>
                             <li><a href="#" class="btnGirl ui-btn-active ui-state-persist">Girl</a></li>
                     </ul>

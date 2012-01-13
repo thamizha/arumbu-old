@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.phonegap.arumbu;
+package com.thamizha.arumbu;
 
 public final class R {
     public static final class attr {
