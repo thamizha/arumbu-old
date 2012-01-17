@@ -4,57 +4,22 @@
         <title>ThamiZha! Arumbu - Tamil baby names</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<meta charset="UTF-8">
-        <script type="text/javascript" charset="utf-8" src="js/phonegap-1.3.0.js"></script>        
+       <script type="text/javascript" charset="utf-8" src="js/phonegap-1.3.0.js"></script>
         <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>  
-        <script>
-					
-            /*var str="<items><prefix letter='«'><item name='«¸õ' gender='boy' /><item name='«¸ì¸¼ø' gender='boy' /><item name='«¸ì¸ñ½ý' gender='boy' /><item name='«¸ì¸¾¢÷' gender='boy' /><item name='«¸ì¸¨Ä»ý' gender='boy' /><item name='«¸ì¸£Ãý' gender='boy' /><item name='«¸ìÌÁÃý' gender='boy' /><item name='«¸ìÌýÈý' gender='boy' /><item name='«¸ì§¸¡' gender='boy' /><item name='«¸ì§¸¡Á¡ý' gender='boy' /><item name='«¸ì¸¼ø' gender='girl' /><item name='«¸ì¸ñ½¢' gender='girl' /><item name='«¸ì¸ñÏ' gender='girl' /><item name='«¸ì¸¨½' gender='girl' /><item name='«¸ì¸¾¢÷' gender='girl' /><item name='«¸ì¸¨Ä' gender='girl' /><item name='«¸ì¸Éø' gender='girl' /><item name='«¸ì¸É¢' gender='girl' /><item name='«¸ì¸¢û¨Ç' gender='girl' /><item name='«¸ì¸¢Ç¢' gender='girl' /></prefix><prefix letter='¬'><item name='¬ðº¢' gender='boy' /><item name='¬ðº¢ì¸Éø' gender='boy' /><item name='¬ðº¢ì¸¢Æ¡ý' gender='boy' /><item name='¬ðº¢ìÌÁÃý' gender='boy' /><item name='¬ðº¢ìÌÃ¢º¢ø' gender='boy' /><item name='¬ðº¢ìÌýÈý' gender='boy' /><item name='¬ðº¢ìÜò¾ý' gender='boy' /><item name='¬ðº¢ì¦¸¡Ê' gender='boy' /><item name='¬ðº¢ì§¸¡' gender='boy' /><item name='¬ðº¢ì§¸¡¼ý' gender='boy' /><item name='¬¨º' gender='girl' /><item name='¬¨ºì¸ñ½¢' gender='girl' /><item name='¬¨ºì¸ñÏ' gender='girl' /><item name='¬¨ºì¸É¢' gender='girl' /><item name='¬¨ºì¸¢Ç¢' gender='girl' /><item name='¬¨ºìÌÂ¢ø' gender='girl' /><item name='¬¨ºìÌÃø' gender='girl' /><item name='¬¨ºìÌÆø' gender='girl' /><item name='¬¨ºì¦¸¡Ê' gender='girl' /><item name='¬¨ºîº¢ðÎ' gender='girl' /></prefix><prefix letter='þ'><item name='þ¸ø' gender='boy' /><item name='þ¸øÅØ¾¢' gender='boy' /><item name='þ¸øÅÇÅý' gender='boy' /><item name='þ¸øÅ¡½ý' gender='boy' /><item name='þ¸øÅ£Ãý' gender='boy' /><item name='þ¸ø¦ÅüÀý' gender='boy' /><item name='þ¸ø§Åí¨¸' gender='boy' /><item name='þ¸ÄÃºý' gender='boy' /><item name='þ¸Ä¡Æ¢' gender='boy' /><item name='þ¸Ä¡Çý' gender='boy' /><item name='þ¨º' gender='girl' /><item name='þ¨¼' gender='girl' /><item name='þò¾¢' gender='girl' /><item name='þ¨Á' gender='girl' /><item name='þ¨Æ' gender='girl' /><item name='þ¨ÆÂ¡û' gender='girl' /><item name='þ¨ÈÅ¢' gender='girl' /><item name='þýÀõ' gender='girl' /><item name='þÉ¢' gender='girl' /><item name='þÉ¢Âû' gender='girl' /></prefix><prefix letter='®'><item name='®¸õ' gender='boy' /><item name='®¸ì¸ñÏ' gender='boy' /><item name='®¸ì¸¾¢÷' gender='boy' /><item name='®¸ì¸Éø' gender='boy' /><item name='®¸ì¸¢ûÇ¢' gender='boy' /><item name='®¸ì¸£Ãý' gender='boy' /><item name='®¸ìÌÁÃý' gender='boy' /><item name='®¸ìÌÃ¢º¢ø' gender='boy' /><item name='®¸ìÌýÈý' gender='boy' /><item name='®¸ì§¸ûÅý' gender='boy' /><item name='®¸õ' gender='girl' /><item name='®¸ì¸¼ø' gender='girl' /><item name='®¸ì¸¾¢÷' gender='girl' /><item name='®¸ì¸Éø' gender='girl' /><item name='®¸ì¸¢Ç¢' gender='girl' /><item name='®¸ìÌÂ¢ø' gender='girl' /><item name='®¸ì¦¸¡Ê' gender='girl' /><item name='®¸ì¦¸¡ØóÐ' gender='girl' /><item name='®¸îº¢ðÎ' gender='girl' /><item name='®¸îÍ¼÷' gender='girl' /></prefix><prefix letter='¯'><item name='¯¨¼Â¡ý' gender='boy' /><item name='¯½÷×' gender='boy' /><item name='¯½÷Åñ½ø' gender='boy' /><item name='¯½÷ÅÓ¾ý' gender='boy' /><item name='¯½÷ÅÃºý' gender='boy' /><item name='¯½÷ÅÆ¸ý' gender='boy' /><item name='¯½÷Å¡Æ¢' gender='boy' /><item name='¯½÷Å¡Çý' gender='boy' /><item name='¯½÷×ì¸¼ø' gender='boy' /><item name='¯½÷×ì¸Éø' gender='boy' /><item name='¯¨¼Â¡û' gender='girl' /><item name='¯½÷×' gender='girl' /><item name='¯½÷Åõ¨Á' gender='girl' /><item name='¯½÷ÅÃº¢' gender='girl' /><item name='¯½÷Å¡Æ¢' gender='girl' /><item name='¯½÷Å¢ýÀõ' gender='girl' /><item name='¯½÷Å¢É¢Â¡û' gender='girl' /><item name='¯½÷¦ÅÃ¢' gender='girl' /><item name='¯½÷¦Å¡Ç¢' gender='girl' /><item name='¯Â¢÷' gender='girl' /></prefix><prefix letter='°'><item name='°ì¸Ó¨ÉÅý' gender='boy' /><item name='°ì¸¦ÁöÂý' gender='boy' /><item name='°ì¸ÅÄÅý' gender='boy' /><item name='°ì¸ÅûÇø' gender='boy' /><item name='°ì¸Å¡½ý' gender='boy' /><item name='°ì¸Å¡Çý' gender='boy' /><item name='°ì¸Å£Ãý' gender='boy' /><item name='°÷' gender='boy' /><item name='°÷ì¸ñÏ' gender='boy' /><item name='°÷ì¸Éø' gender='boy' /><item name='°ì¸õ' gender='girl' /><item name='°ì¸Á¸û' gender='girl' /><item name='°ì¸Á½¢' gender='girl' /><item name='°÷' gender='girl' /><item name='°Ã½¢' gender='girl' /><item name='°Ãõ¨Á' gender='girl' /><item name='°ÃÓÐ' gender='girl' /><item name='°ÃÆ¸¢' gender='girl' /><item name='°Ã¡û' gender='girl' /><item name='°Õ½¢' gender='girl' /></prefix><prefix letter='±'><item name='±Â¢ý' gender='boy' /><item name='±Â¢Éý' gender='boy' /><item name='±Ã¢' gender='boy' /><item name='±Ã¢¸¨½' gender='boy' /><item name='±Ã¢¸¾¢÷' gender='boy' /><item name='±Ã¢¸Éø' gender='boy' /><item name='±Ã¢¸¡¼ý' gender='boy' /><item name='±Ã¢Í¼÷' gender='boy' /><item name='±Ã¢Í¼§Ã¡ý' gender='boy' /><item name='±Ã¢Á¨Ä' gender='boy' /><item name='±¸¢Éõ' gender='girl' /><item name='±ñ' gender='girl' /><item name='±ñ¸¼ø' gender='girl' /><item name='±ñÍ¼÷' gender='girl' /><item name='±ñ½È¢×' gender='girl' /><item name='±ñ½¡Æ¢' gender='girl' /><item name='±ñ½¡üÈø' gender='girl' /><item name='±ñ¦½¡Ç¢' gender='girl' /><item name='±ñ§½¡Å¢Âõ' gender='girl' /><item name='±ñÅøÄ¡û' gender='girl' /></prefix><prefix letter='²'><item name='²ó¾ø' gender='boy' /><item name='²ó¾ÄÓÐ' gender='boy' /><item name='²ó¾Ä¨Ä' gender='boy' /><item name='²ó¾ÄÆÌ' gender='boy' /><item name='²ó¾ü¸£Ãý' gender='boy' /><item name='²ó¾ü§¸ûÅý' gender='boy' /><item name='²ó¾ýÁ¸ý' gender='boy' /><item name='²ó¾ýÁÕ¸ý' gender='boy' /><item name='²ó¾ýÁ¡ñÀý' gender='boy' /><item name='²ó¦¾Æ¢ø' gender='boy' /><item name='²óÐ¾ø' gender='girl' /><item name='²ó¾¢¨Æ' gender='girl' /><item name='²ó¾¢¨ÆÂ¡û' gender='girl' /><item name='²ó¦¾Æ¢ø' gender='girl' /><item name='²ó¦¾Æ¢Ä¢' gender='girl' /><item name='²ó¦¾Æ¢É¢' gender='girl' /><item name='²÷' gender='girl' /><item name='²÷ì¸ñ½¢' gender='girl' /><item name='²÷ì¦¸¡Ê' gender='girl' /><item name='²÷îº¢ÄõÒ' gender='girl' /></prefix><prefix letter='³'><item name='³Âý' gender='boy' /><item name='³Âý¸¼ø' gender='boy' /><item name='³Âý¸¨Ã' gender='boy' /><item name='³Âý¸¡Ã¢' gender='boy' /><item name='³Âý¸¢Æ¡ý' gender='boy' /><item name='³Âý¸¢ûÇ¢' gender='boy' /><item name='³Âý¸£Ãý' gender='boy' /><item name='³ÂýÌÁÃý' gender='boy' /><item name='³Âý§¸ûÅý' gender='boy' /><item name='³Âý¦¸¡Ê' gender='boy' /><item name='³õÀ¡ø' gender='girl' /><item name='³õÀ¡ÄÕÅ¢' gender='girl' /><item name='³õÀ¡ÄÆ¸¢' gender='girl' /><item name='³õÀ¡ÄÆÌ' gender='girl' /><item name='³õÀ¡¦ÄÆ¢ø' gender='girl' /><item name='³õÀ¡¦ÄÆ¢Ä¢' gender='girl' /><item name='³õÀ¡¦ÄÆ¢É¢' gender='girl' /><item name='³õÀ¡ü¸¼ø' gender='girl' /><item name='³õÀ¡ü¦ºøÅõ' gender='girl' /><item name='³õÀ¡ü¦ºøÅ¢' gender='girl' /></prefix><prefix letter='´'><item name='´ñ¨Á' gender='boy' /><item name='´ñ¦À¡ÕôÀý' gender='boy' /><item name='´ñ¦À¡Æ¢ø' gender='boy' /><item name='´ñ¦À¡Æ¢Äý' gender='boy' /><item name='´ñÁ½¢' gender='boy' /><item name='´ñÁ¾¢' gender='boy' /><item name='´ñÁ¡÷Àý' gender='boy' /><item name='´ñÓò¾ý' gender='boy' /><item name='´ñÓòÐ' gender='boy' /><item name='´ñÓÃÍ' gender='boy' /><item name='´ÕÅ¨¸ÁÃõ' gender='girl' /><item name='´ñ¨Á' gender='girl' /><item name='´ñ¸¼ø' gender='girl' /><item name='´ñ¸ñ½¢' gender='girl' /><item name='´ñ¸¨½' gender='girl' /><item name='´ñ¸¾¢÷' gender='girl' /><item name='´ñ¸Âø' gender='girl' /><item name='´ñ¸Äõ' gender='girl' /><item name='´ñ¸¨Ä' gender='girl' /><item name='´ñ¸ÆÉ¢' gender='girl' /></prefix><prefix letter='µ'><item name='µ¨º' gender='boy' /><item name='µ¨ºì¸¼ø' gender='boy' /><item name='µ¨ºò¾¢Èø' gender='boy' /><item name='µ¨ºÂý' gender='boy' /><item name='µ¨ºÂ¢ýÀý' gender='boy' /><item name='µ¨ºÂ¢É¢Âý' gender='boy' /><item name='µ¼õ' gender='boy' /><item name='µ¼ò¾õÀ¢' gender='boy' /><item name='µ¼ò¾¢Èø' gender='boy' /><item name='µ¼òÐ¨Ã' gender='boy' /><item name='µ¨º' gender='girl' /><item name='µ¨ºì¸¼ø' gender='girl' /><item name='µ¨ºîº¢ÄõÒ' gender='girl' /><item name='µ¨ºÁ½¢' gender='girl' /><item name='µ¨ºÂÕÅ¢' gender='girl' /><item name='µ¨ºÂÆ¸¢' gender='girl' /><item name='µ¨ºÂ¡ú' gender='girl' /><item name='µ¨ºÂ¢ýÀõ' gender='girl' /><item name='µ¨ºÂ¢É¢Â¡û' gender='girl' /><item name='µ¨¼' gender='girl' /></prefix><prefix letter='¶'></prefix><prefix letter='¸'><item name='¸¼õÒ' gender='boy' /><item name='¸¼ôÀï§º¡¨Ä' gender='boy' /><item name='¸¼ôÀó¾¡÷' gender='boy' /><item name='¸¼ôÀó¦¾ýÈø' gender='boy' /><item name='¸¼ôÀÁ¡÷Àý' gender='boy' /><item name='¸¼ôÀÁ¡Èý' gender='boy' /><item name='¸¼ôÀ¨Áó¾ý' gender='boy' /><item name='¸¼õÀ¿õÀ¢' gender='boy' /><item name='¸¼õÀ¿øÄý' gender='boy' /><item name='¸¼õÀ¿ø§Ä¡ý' gender='boy' /><item name='¸ðÎ' gender='girl' /><item name='¸ð¼Æ¸¢' gender='girl' /><item name='¸¼õÒ' gender='girl' /><item name='¸¼õÀÁ½¢' gender='girl' /><item name='¸¼õÀÁÂ¢ø' gender='girl' /><item name='¸¼õÀÁÄ÷' gender='girl' /><item name='¸¼õÀÁ¨Ä' gender='girl' /><item name='¸¼õÀÁ¡¨Ä' gender='girl' /><item name='¸¼õÀ½¢' gender='girl' /><item name='¸¼õÀõ¨Á' gender='girl' /></prefix><prefix letter='º'><item name='ºÄî¦ºõÁø' gender='boy' /><item name='ºíÌ' gender='boy' /><item name='ºí¸ÕÅ¢' gender='boy' /><item name='ºí¸¢¨º' gender='boy' /><item name='ºí¸¢¨º»ý' gender='boy' /><item name='ºíÜÃý' gender='boy' /><item name='ºí¦¸¡Ä¢Âý' gender='boy' /><item name='ºó¾Éõ' gender='boy' /><item name='ºó¾Éì¸¼ø' gender='boy' /><item name='ºó¾Éì¸ñ½ý' gender='boy' /><item name='ºíÌ' gender='girl' /><item name='ºí¸½¢' gender='girl' /><item name='ºí¸Æ¸¢' gender='girl' /><item name='ºí¸ÆÌ' gender='girl' /><item name='ºí¸¡Æ¢' gender='girl' /><item name='ºí¸¢¨º' gender='girl' /><item name='ºí¸¢¨Æ' gender='girl' /><item name='ºí¸¢¨ÆÂ¡û' gender='girl' /><item name='ºí¸¢É¢Â¡û' gender='girl' /><item name='ºíÌì¸¼ø' gender='girl' /></prefix><prefix letter='¾'><item name='¾¸×' gender='boy' /><item name='¾¸Åñ½ø' gender='boy' /><item name='¾¸ÅôÀý' gender='boy' /><item name='¾¸ÅÓ¾ý' gender='boy' /><item name='¾¸ÅÃºý' gender='boy' /><item name='¾¸ÅÃÍ' gender='boy' /><item name='¾¸ÅÆ¸ý' gender='boy' /><item name='¾¸Åý' gender='boy' /><item name='¾¸ÅýÀý' gender='boy' /><item name='¾¸ÅÈ¢Åý' gender='boy' /><item name='¾¸×' gender='girl' /><item name='¾¸Å½¢' gender='girl' /><item name='¾¸ÅõÁ¡' gender='girl' /><item name='¾¸Åõ¨Á' gender='girl' /><item name='¾¸ÅÓÐ' gender='girl' /><item name='¾¸ÅÃº¢' gender='girl' /><item name='¾¸ÅÃÍ' gender='girl' /><item name='¾¸ÅÃñ' gender='girl' /><item name='¾¸ÅÃ¢' gender='girl' /><item name='¾¸ÅÕÅ¢' gender='girl' /></prefix><prefix letter='À'><item name='À¸ø' gender='boy' /><item name='À¸ÄÅý' gender='boy' /><item name='À¸§Ä¡ý' gender='boy' /><item name='À¨¸' gender='boy' /><item name='À¨¸Âïº¡ý' gender='boy' /><item name='ÀíÌ' gender='boy' /><item name='Àí¸¡Çý' gender='boy' /><item name='ÀÍ¨Á' gender='boy' /><item name='Àî¨ºÁ½¢' gender='boy' /><item name='Àî¨ºÁ¨Ä' gender='boy' /><item name='À¸ø' gender='girl' /><item name='À¸øÅÊ×' gender='girl' /><item name='À¸øÅ¡Éõ' gender='girl' /><item name='À¸øÅ¢Æ¢' gender='girl' /><item name='À¸øÅ¢Èø' gender='girl' /><item name='À¸øÅ¢ÈÄ¢' gender='girl' /><item name='À¸øÅ£' gender='girl' /><item name='À¸ø§Åø' gender='girl' /><item name='À¸Ä½¢' gender='girl' /><item name='À¸ÄõÁ¡' gender='girl' /></prefix></items>";                        
-            $(document).ready(function(){                   
-                    var xml = $.parseXML(str);
-                    var op1="<ul data-role='listview' class='nameList'>";
-                    var op2="<ul data-role='listview' class='nameList'>";
-                    var op3="<ul data-role='listview' class='nameList'>";
-                    
-                    $(xml).find('prefix').each(function(){
-                        if($(this).children().size() > 0 ){
-                                var ltr = $(this).attr('letter');                            
-                                op1 +="<li data-role='list-divider'>"+ltr+"</li>";                                   
-                                op2 +="<li data-role='list-divider'>"+ltr+"</li>";                                   
-                                op3 +="<li data-role='list-divider'>"+ltr+"</li>";                                   
-                                $(this).children().each(function(){
-                                    var name = $(this).attr('name');
-                                    var gender = $(this).attr('gender');
-                                    op1 +="<li >"+name+"</li>"
-                                    if(gender == "girl"){
-                                        op3 +="<li>"+name+"</li>"
-                                    }else if(gender=="boy"){
-                                        op2 +="<li >"+name+"</li>"
-                                    }
-                                });
-                            }
-                    });
-                    op1+="</ul>";
-                    op2+="</ul>";
-                    op3+="</ul>";
-                    $('#nameListContainerBoth').html(op1); 
-                    $('#nameListContainerBoy').html(op2); 
-                    $('#nameListContainerGirl').html(op3); 
-            });*/		
-			
-        </script>
-		
-		<script>
-			window.addEventListener('load', function () {	
-				console.log("arumbu...."+arumbu);
-				document.addEventListener("deviceready", arumbu.phoneGapInit, false);
-			},false);
-		</script>		
-		
-		<link href="css/jquery.mobile-1.0.min.css" rel="stylesheet"/>
+		<link href="jquery.mobile-1.0.min.css" rel="stylesheet"/>
         <script type="text/javascript" src="js/jquery.mobile-1.0.min.js"></script>  
-		<script type="text/javascript" src="js/arumbu.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/arumbu.js" charset="utf-8"></script>		
 		<link href="css/arumbu.css" rel="stylesheet"/>	
 		<script>
+			if(arumbu.mode == arumbu.DEVELOPMENT){
+				arumbu.phoneGapInit();
+			}else {
+				window.addEventListener('load', function () {	
+					console.log("arumbu...."+arumbu);
+					document.addEventListener("deviceready", arumbu.phoneGapInit, false);
+				},false);			
+			}
+			
 			$(document).bind('mobileinit',function(){			
 				arumbu.jQueryMobileInit();         
 			});	
@@ -64,71 +29,236 @@
 				
         </style>		
     </head>
-    <body>
-        <div data-role="page" id="both" >
-            <div data-role="header" data-position="fixed">
-                <h1>¾Á¢Æ¡! «ÕõÒ</h1>	
-				<h4>ÌÆó¨¾ ¦ÀÂ÷¸û</h4>				
-            </div>
-            <div data-role="content">                
+    <body>		    
+			<div data-role="page" id="both" >
+			   <div data-role="header" data-position="fixed"  data-id="appHeader">
+					<a href="#" data-role="button" data-iconpos="notext" data-icon="arrow-l" class="previousPage"></a>					
+					<h1 class="pageDisplay"></h1>					
+					<a href="#" data-role="button" data-icon="arrow-r" data-iconpos="notext" class="nextPage"></a>		
+				</div>					
+				<div data-role="content"> 
+					<div class="nameListContainer" >
+						
+					</div>
+				</div>
+				<div data-role="footer" data-position="fixed" data-id="appFooter">				
+				   <div data-role="navbar" data-iconpos="bottom" >
+						<ul>
+								<li ><a href="#both" class="btnBoth ui-btn-active ui-state-persist">Both</a></li>
+								<li><a href="#boy" class="btnBoy" data-transition="fade">Boy</a></li>
+								<li><a href="#girl" class="btnGirl" data-transition="fade">Girl</a></li>
+								<li><a href="#filters" data-transition="fade">Filters</a></li>
+								<li><a href="#starred"  data-transition="fade">Starred</a></li>
+						</ul>
+				   </div>
+					
+				</div> 
+			</div>	
 			
-                <div id="nameListContainerBoth">
-                    
-                </div>
-           	
-            </div>
-            <div data-role="footer" data-position="fixed">
-               <div data-role="navbar" data-iconpos="bottom">
-                    <ul>
-                            <li ><a href="#both" class="btnBoth ui-btn-active ui-state-persist">Both</a></li>
-                            <li><a href="#boy" class="btnBoy"  data-direction="reverse">Boy</a></li>
-                            <li><a href="#girl" class="btnGirl" data-direction="reverse">Girl</a></li>
-                    </ul>
-               </div>
-            </div>
-        </div>  
-		
-        <div data-role="page" id="boy">
-            <div data-role="header" data-position="fixed">
-                <h1>¾Á¢Æ¡! «ÕõÒ</h1>
-				<h4>ÌÆó¨¾ ¦ÀÂ÷¸û</h4>								
-            </div>
-            <div data-role="content">                
-                <div id="nameListContainerBoy">
-                    
-                </div>
-           	
-            </div>
-            <div data-role="footer" data-position="fixed">
-               <div data-role="navbar" data-iconpos="bottom">
-                    <ul>
-                            <li ><a href="#both" class="btnBoth " >Both</a></li>
-                            <li><a href="#" class="btnBoy ui-btn-active ui-state-persist">Boy</a></li>
-                            <li><a href="#girl" class="btnGirl" data-direction="reverse">Girl</a></li>
-                    </ul>
-               </div>
-            </div>
-        </div> 
-        <div data-role="page" id="girl">
-            <div data-role="header" data-position="fixed">
-                <h1>¾Á¢Æ¡! «ÕõÒ</h1>
-				<h4>ÌÆó¨¾ ¦ÀÂ÷¸û</h4>								
-            </div>
-            <div data-role="content">                
-                <div id="nameListContainerGirl">
-                    
-                </div>
-           	
-            </div>
-            <div data-role="footer" data-position="fixed">
-               <div data-role="navbar" data-iconpos="bottom">
-                    <ul>
-                            <li ><a href="#both" class="btnBoth" >Both</a></li>
-                            <li><a href="#boy" class="btnBoy" >Boy</a></li>
-                            <li><a href="#" class="btnGirl ui-btn-active ui-state-persist">Girl</a></li>
-                    </ul>
-               </div>
-            </div>
-        </div> 
+			<div data-role="page" id="boy">
+			    <div data-role="header" data-position="fixed"  data-id="appHeader">
+					<a href="#" data-role="button" data-iconpos="notext" data-icon="arrow-l "  class="previousPage"></a>
+					<h1 class="pageDisplay"></h1>					
+					<a href="#" data-role="button" data-icon="arrow-r" data-iconpos="notext"  class="nextPage"></a>		
+				</div>	
+			
+				
+				<div data-role="content"> 
+					<div class="nameListContainer" >
+						
+					</div>
+				</div>
+				<div data-role="footer" data-position="fixed" data-id="appFooter">				
+				   <div data-role="navbar" data-iconpos="bottom" >
+						<ul>
+								<li ><a href="#both" class="btnBoth" data-transition="fade">Both</a></li>
+								<li><a href="#boy" class="btnBoy ui-btn-active ui-state-persist" >Boy</a></li>
+								<li><a href="#girl" class="btnGirl" data-transition="fade">Girl</a></li>
+								<li><a href="#filters" data-transition="fade">Filters</a></li>
+								<li><a href="#starred"  data-transition="fade">Starred</a></li>
+						</ul>
+				   </div>
+					
+				</div> 
+			</div>
+			
+			<div data-role="page" id="girl">
+			    <div data-role="header" data-position="fixed"  data-id="appHeader">
+					<a href="#" data-role="button" data-iconpos="notext" data-icon="arrow-l "  class="previousPage"></a>
+					<h1 class="pageDisplay"></h1>						
+					<a href="#" data-role="button" data-icon="arrow-r" data-iconpos="notext"  class="nextPage"></a>		
+				</div>	
+			
+				
+				<div data-role="content"> 
+					<div class="nameListContainer" >
+						
+					</div>
+				</div>
+				<div data-role="footer" data-position="fixed" data-id="appFooter">				
+				   <div data-role="navbar" data-iconpos="bottom" >
+						<ul>
+								<li ><a href="#both" class="btnBoth" data-transition="fade">Both</a></li>
+								<li><a href="#boy" class="btnBoy" data-transition="fade">Boy</a></li>
+								<li><a href="#girl" class="btnGirl ui-btn-active ui-state-persist" >Girl</a></li>
+								<li><a href="#filters" data-transition="fade">Filters</a></li>
+								<li><a href="#starred"  data-transition="fade">Starred</a></li>
+						</ul>
+				   </div>
+					
+				</div> 
+			</div>
+			<div data-role="page" id="filters">
+				 <div data-role="header" data-position="fixed" class="ui-state-persist" data-id="appHeader">					
+					<h1>Filters</h1>									
+				</div>
+				<div data-role="content">  			
+					<style>
+						#startingLetterFilters a{
+							display:inline-block;
+							border:1px solid #aaa;
+							padding:10px;
+							margin-right:5px;
+							margin-bottom:5px;
+							background-color:#fff;
+							border-radius:7px;
+							text-decoration:none;
+							font-family:Tamil;
+						}
+						
+						#startingLetterFilters a.selected{
+							background-color:#458AC3;
+							color:#fff;							
+						}
+					</style>
+					<div id="startingLetterFilters">
+						<a href='#' data-letter='«' class='filt' >«</a>
+					<a href='#' data-letter='¬' class='filt' >¬</a>
+					<a href='#' data-letter='þ' class='filt' >þ</a>
+					<a href='#' data-letter='®' class='filt' >®</a>
+					<a href='#' data-letter='¯' class='filt' >¯</a>
+					<a href='#' data-letter='°' class='filt' >°</a>
+					<a href='#' data-letter='±' class='filt' >±</a>
+					<a href='#' data-letter='²' class='filt' >²</a>
+					<a href='#' data-letter='³' class='filt' >³</a>
+					<a href='#' data-letter='´' class='filt' >´</a>
+					<a href='#' data-letter='µ' class='filt' >µ</a>
+					<a href='#' data-letter='¸' class='filt' >¸</a>
+					<a href='#' data-letter='¸¡' class='filt' >¸¡</a>
+					<a href='#' data-letter='¸¢' class='filt' >¸¢</a>
+					<a href='#' data-letter='¸£' class='filt' >¸£</a>
+					<a href='#' data-letter='Ì' class='filt' >Ì</a>
+					<a href='#' data-letter='Ü' class='filt' >Ü</a>
+					<a href='#' data-letter='§¸' class='filt' >§¸</a>
+					<a href='#' data-letter='¨¸' class='filt' >¨¸</a>
+					<a href='#' data-letter='¦¸¡' class='filt' >¦¸¡</a>
+					<a href='#' data-letter='§¸¡' class='filt' >§¸¡</a>
+					<a href='#' data-letter='º' class='filt' >º</a>
+					<a href='#' data-letter='º¡' class='filt' >º¡</a>
+					<a href='#' data-letter='º¢' class='filt' >º¢</a>
+					<a href='#' data-letter='º£' class='filt' >º£</a>
+					<a href='#' data-letter='Í' class='filt' >Í</a>
+					<a href='#' data-letter='Ý' class='filt' >Ý</a>
+					<a href='#' data-letter='¦º' class='filt' >¦º</a>
+					<a href='#' data-letter='§º' class='filt' >§º</a>
+					<a href='#' data-letter='¦º¡' class='filt' >¦º¡</a>
+					<a href='#' data-letter='§º¡' class='filt' >§º¡</a>
+					<a href='#' data-letter='»¡' class='filt' >»¡</a>
+					<a href='#' data-letter='½¢' class='filt' >½¢</a>
+					<a href='#' data-letter='¾' class='filt' >¾</a>
+					<a href='#' data-letter='¾¡' class='filt' >¾¡</a>
+					<a href='#' data-letter='¾¢' class='filt' >¾¢</a>
+					<a href='#' data-letter='¾£' class='filt' >¾£</a>
+					<a href='#' data-letter='Ð' class='filt' >Ð</a>
+					<a href='#' data-letter='à' class='filt' >à</a>
+					<a href='#' data-letter='¦¾' class='filt' >¦¾</a>
+					<a href='#' data-letter='§¾' class='filt' >§¾</a>
+					<a href='#' data-letter='¨¾' class='filt' >¨¾</a>
+					<a href='#' data-letter='¦¾¡' class='filt' >¦¾¡</a>
+					<a href='#' data-letter='§¾¡' class='filt' >§¾¡</a>
+					<a href='#' data-letter='¦¾ª' class='filt' >¦¾ª</a>
+					<a href='#' data-letter='¿' class='filt' >¿</a>
+					<a href='#' data-letter='¿¡' class='filt' >¿¡</a>
+					<a href='#' data-letter='¿¢' class='filt' >¿¢</a>
+					<a href='#' data-letter='¿£' class='filt' >¿£</a>
+					<a href='#' data-letter='Ñ' class='filt' >Ñ</a>
+					<a href='#' data-letter='¦¿' class='filt' >¦¿</a>
+					<a href='#' data-letter='§¿' class='filt' >§¿</a>
+					<a href='#' data-letter='¦¿¡' class='filt' >¦¿¡</a>
+					<a href='#' data-letter='À' class='filt' >À</a>
+					<a href='#' data-letter='À¡' class='filt' >À¡</a>
+					<a href='#' data-letter='À¢' class='filt' >À¢</a>
+					<a href='#' data-letter='À£' class='filt' >À£</a>
+					<a href='#' data-letter='Ò' class='filt' >Ò</a>
+					<a href='#' data-letter='â' class='filt' >â</a>
+					<a href='#' data-letter='¦À' class='filt' >¦À</a>
+					<a href='#' data-letter='§À' class='filt' >§À</a>
+					<a href='#' data-letter='¨À' class='filt' >¨À</a>
+					<a href='#' data-letter='¦À¡' class='filt' >¦À¡</a>
+					<a href='#' data-letter='§À¡' class='filt' >§À¡</a>
+					<a href='#' data-letter='Á' class='filt' >Á</a>
+					<a href='#' data-letter='Á¡' class='filt' >Á¡</a>
+					<a href='#' data-letter='Á¢' class='filt' >Á¢</a>
+					<a href='#' data-letter='Á£' class='filt' >Á£</a>
+					<a href='#' data-letter='Ó' class='filt' >Ó</a>
+					<a href='#' data-letter='ã' class='filt' >ã</a>
+					<a href='#' data-letter='¦Á' class='filt' >¦Á</a>
+					<a href='#' data-letter='§Á' class='filt' >§Á</a>
+					<a href='#' data-letter='¨Á' class='filt' >¨Á</a>
+					<a href='#' data-letter='¦Á¡' class='filt' >¦Á¡</a>
+					<a href='#' data-letter='§Á¡' class='filt' >§Á¡</a>
+					<a href='#' data-letter='¦Áª' class='filt' >¦Áª</a>
+					<a href='#' data-letter='Â' class='filt' >Â</a>
+					<a href='#' data-letter='Â¡' class='filt' >Â¡</a>
+					<a href='#' data-letter='Ã' class='filt' >Ã</a>
+					<a href='#' data-letter='Ã¡' class='filt' >Ã¡</a>
+					<a href='#' data-letter='Å' class='filt' >Å</a>
+					<a href='#' data-letter='Å¡' class='filt' >Å¡</a>
+					<a href='#' data-letter='Å¢' class='filt' >Å¢</a>
+					<a href='#' data-letter='Å£' class='filt' >Å£</a>
+					<a href='#' data-letter='¦Å' class='filt' >¦Å</a>
+					<a href='#' data-letter='§Å' class='filt' >§Å</a>
+					<a href='#' data-letter='¨Å' class='filt' >¨Å</a>
+					<a href='#' data-letter='§Å¡' class='filt' >§Å¡</a>
+					<a href='#' data-letter='¦Åª' class='filt' >¦Åª</a>
+					</div>
+				</div>	
+				<div data-role="footer" data-position="fixed" data-id="appFooter">				
+				   <div data-role="navbar" data-iconpos="bottom" >
+						<ul>
+								<li ><a href="#both"  data-transition="fade">Both</a></li>
+								<li><a href="#boy" class="btnBoy" data-transition="fade">Boy</a></li>
+								<li><a href="#girl" class="btnGirl" data-transition="fade">Girl</a></li>
+								<li><a href="#" class="btnBoth ui-btn-active ui-state-persist">Filters</a></li>
+								<li><a href="#starred"  data-transition="fade">Starred</a></li>
+						</ul>
+				   </div>					
+				</div> 				
+			</div>
+			<div data-role="page" id="starred">
+			    <div data-role="header" data-position="fixed"  data-id="appHeader">					
+					<h1>¾Á¢Æ¡! «ÕõÒ</h1>	
+					<h4>ÌÆó¨¾ ¦ÀÂ÷¸û</h4>											
+				</div>	
+				<div data-role="content"> 
+					<div class="nameListContainer" >
+						
+					</div>
+				</div>
+				<div data-role="footer" data-position="fixed" data-id="appFooter">				
+				   <div data-role="navbar" data-iconpos="bottom" >
+						<ul>
+								<li ><a href="#both" class="btnBoth" data-transition="fade">Both</a></li>
+								<li><a href="#boy" class="btnBoy" data-transition="fade">Boy</a></li>
+								<li><a href="#girl" class="btnGirl" data-transition="fade">Girl</a></li>
+								<li><a href="#filters" data-transition="fade">Filters</a></li>
+								<li><a href="#starred" class=" ui-btn-active ui-state-persist"  >Starred</a></li>
+						</ul>
+				   </div>
+					
+				</div> 
+			</div>
+			
+			
     </body>
 </html>

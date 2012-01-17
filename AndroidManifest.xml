@@ -30,7 +30,7 @@
     <uses-sdk android:minSdkVersion="7" />
 
     <application
-        android:icon="@drawable/arumbu_logo"
+        android:icon="@drawable/arumbu"
         android:label="@string/app_name"        
         >
         <activity
